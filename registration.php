@@ -48,7 +48,7 @@
                 echo "<a href=" . "logout.php" . ">Click here to Logout</a>";
             }
             else {
-                echo "<h3>cant register, same username, please register with another username</h3> <br/>";
+                echo "<h3>same username.please register with another username</h3> <br/>";
                 echo "<a href=" . "registration.php" . ">register here</a>";
             }
         }
